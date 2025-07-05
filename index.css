@@ -5,17 +5,23 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    background-color: bisque;
+    background-color: #ADb3bc;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
 .card{
     width: 600px;
     height: 300px;
     display: flex;
     flex-direction: column;
     border: 2px solid black;
+    border-radius: 10px;
     padding: 20px;
     background: white;
+    box-shadow: 10px 5px 5px black;
 }
 
 .title{
@@ -37,6 +43,7 @@ body{
     border-radius: 30px;
     padding: 10px 20px;
     flex: 1;
+    border: 2px solid black ;
 }
 
 .center{
@@ -45,6 +52,7 @@ body{
     padding: 10px;
     margin-left: 10px;
     flex:1;
+    border: 2px solid black ;
 }
 .right{
     background-color: lightcoral;
@@ -52,6 +60,7 @@ body{
     margin-left: 10px;
     flex: 1;
     border-radius: 30px;
+    border: 2px solid black ;
 }
 footer{
     display: flex;
@@ -67,7 +76,14 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 100px;
+    gap: 70px;
+    border: 2px solid black;
+    margin-right: 40px;
+    border-radius: 10px;
+    padding: 10px ;
+    background-color: white;
+    box-shadow: 10px 5px 5px black;
+
 }
 .picture{
 border: 1px solid black;
@@ -79,9 +95,11 @@ img{
      height: 100px;
      width: 100px;
      border-radius: 100%
+
 }
 
 .madeby{
+
     text-align: center;
     font-size: 40px;
 

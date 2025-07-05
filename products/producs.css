@@ -35,9 +35,7 @@ button {
   grid-template-areas:
     "p-one p-two p-three p-four"
     "p-five p-six p-seven p-eight ";
-  /* border: solid black 3px; */
-  grid-gap: 100px;
-  /* border: 1px solid black; */
+  grid-gap: 20px;
  
 }
 img {
@@ -54,6 +52,7 @@ a {
   border: 1px black solid;
   background-color: white;
   border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
 }
 
 #p-two {
@@ -61,12 +60,14 @@ a {
   border: 1px black solid;
   background-color: white;
   border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
 }
 #p-three {
   padding: 10px;
   border: 1px black solid;
   background-color: white;
   border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
 }
 
 #p-four {
@@ -74,12 +75,14 @@ a {
   border: 1px black solid;
   background-color: white;
   border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
 }
 #p-five {
   padding: 10px;
   border: 1px black solid;
   background-color: white;
   border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
 }
 
 #p-six {
@@ -87,6 +90,7 @@ a {
   border: 1px black solid;
   background-color: white;
   border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
 }
 
 #p-seven {
@@ -94,6 +98,7 @@ a {
   border: 1px black solid;
   background-color: white;
   border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
 }
 
 #p-eight {
@@ -101,4 +106,5 @@ a {
   border: 1px black solid;
   background-color: white;
   border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
 }
