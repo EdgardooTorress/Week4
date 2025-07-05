@@ -1,3 +1,21 @@
+* { background-color: lightgray;
+
+}
+
+nav{
+    margin-bottom: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+button{
+    background-color: black;
+    border-radius: 30px;
+    width: 100px;
+}
 .black{
     color: black;
     width: 100px;
@@ -9,10 +27,21 @@
     width: 100px;
     height: 100px;
     background-color: white;
-    margin: ;
 }
 
 table{
-    margin: 15px;
     border: 3px solid black;
+    margin-bottom: 20px;
+
+}
+
+.boxes{ 
+    display: flex;
+
+}
+
+.board {
+     border:3px solid black;
+    margin-bottom: 20px;
+    width: 800px;
 }
