@@ -118,7 +118,7 @@ img{
 
 @media (max-width: 40rem){
     html{
-        font-size: 43.75%;
+        font-size: 38%;
     }
     .card {
     width: 40rem;
