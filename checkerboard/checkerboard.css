@@ -2,8 +2,12 @@
 
 }
 
+html{
+    font-size: 62.5%;
+}
+
 nav{
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     text-align: center;
 }
 a{
@@ -14,24 +18,24 @@ a{
 button{
     background-color: black;
     border-radius: 30px;
-    width: 100px;
+    width: 15rem;
 }
 .black{
     color: black;
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
     background-color: black;
 }
 .white{
     color: white;
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
     background-color: white;
 }
 
 table{
     border: 3px solid black;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     border-collapse: collapse;
 
 }
@@ -43,6 +47,30 @@ table{
 
 .board {
      border:3px solid black;
-    margin-bottom: 20px;
-    width: 800px;
+    margin-bottom: 2rem;
+    width: 80rem;
+}
+
+@media (max-width: 72rem) {
+    html{
+        font-size:  56.25%;
+    }
+}
+
+@media (max-width: 40rem){
+    html{
+        font-size: 43.75%;
+    }
+
+}
+
+@media (max-width: 30rem){
+    html{
+        font-size: 31%;
+    }
+     button{
+    height: 4rem;
+    width: 10em;
+     font-size: 1.5rem;
+}
 }

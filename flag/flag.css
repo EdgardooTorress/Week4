@@ -1,20 +1,25 @@
-
+html{
+    font-size: 62.5%;
+}
 body{
-    padding-right: 100px;
+    padding-right: 10rem;
     height: 336px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 .navbar{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 button{
     border-radius: 30px;
     background-color: black;
-    height: 30px;
-    width: 100px;
+    height: 3rem;
+    width: 13rem;
 }
 a{
     text-decoration: none;
@@ -26,23 +31,47 @@ table{
     display: flex;
     flex-wrap: wrap;
     border: 1px solid black;
-    width: 600px;
+    width: 60rem;
 }
 
 .red {
     background-color: red;
-    width: 600px;
-    height: 22px;
+    width: 60rem;
+    height: 2.2rem;
 }
 
 .white{
     background-color: white;
-    width: 600px;
-    height: 22px;
+    width: 60rem;
+    height: 2.2rem;
 }
 
 img{
     position: absolute;
-    height: 168px;
-    width: 250px;
+    height: 16.8rem;
+    width: 25rem;
+}
+
+@media (max-width: 72rem) {
+    html{
+        font-size:  56.25%;
+    }
+}
+
+@media (max-width: 40rem){
+    html{
+        font-size: 43.75%;
+    }
+
+}
+
+@media (max-width: 30rem){
+    html{
+        font-size: 31%;
+    }
+    button{
+    height: 4rem;
+    width: 10em;
+
+}
 }

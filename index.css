@@ -41,7 +41,7 @@ a{
     align-items: center;
     flex: 1;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .left{
@@ -131,6 +131,6 @@ img{
         font-size: 31%;
     }
     .card{
-    width: 40rem;
-    height: 20rem;}
+    width: 50rem;
+    height: 30rem;}
 }
