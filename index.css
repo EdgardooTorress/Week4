@@ -6,12 +6,13 @@ html{
 body{
     margin: 0;
     height: 800px;
-    width: 80vh ;
+    width: 80rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #ADb3bc;
+
 }
 
 a{
@@ -132,6 +133,6 @@ img{
         font-size: 31%;
     }
     .card{
-    width: 50rem;
+    width: 40rem;
     height: 30rem;}
 }
